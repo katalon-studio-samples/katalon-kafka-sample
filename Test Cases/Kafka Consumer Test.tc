@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kafka Consumer Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e169c13d-0676-4ead-bd7f-d819c73910df</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35c7b304-f26f-4c29-9e1e-1744b58d67f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>513ffb21-f9b3-46b7-ac50-49f7ff505082</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4fbf2ae-8669-418e-8694-d804ee71a190</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John'</defaultValue>
+      <description></description>
+      <id>35c7b304-f26f-4c29-9e1e-1744b58d67f2</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Doe'</defaultValue>
+      <description></description>
+      <id>513ffb21-f9b3-46b7-ac50-49f7ff505082</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'21'</defaultValue>
+      <description></description>
+      <id>d4fbf2ae-8669-418e-8694-d804ee71a190</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

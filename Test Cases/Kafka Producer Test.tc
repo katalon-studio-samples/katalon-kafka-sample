@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kafka Producer Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f5f6735-af82-4d28-b3a6-33da49dcf217</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59fc8799-9b09-4487-9f74-a644a8155823</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34b97d2e-dd2d-49b2-995a-7609f2eaad50</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48713945-6730-4cb3-82f6-133f12cbafa9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John'</defaultValue>
+      <description></description>
+      <id>59fc8799-9b09-4487-9f74-a644a8155823</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Doe'</defaultValue>
+      <description></description>
+      <id>34b97d2e-dd2d-49b2-995a-7609f2eaad50</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>21</defaultValue>
+      <description></description>
+      <id>48713945-6730-4cb3-82f6-133f12cbafa9</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

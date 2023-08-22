@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Name of the Kafka topic to be used.</description>
+      <initValue>'quickstart'</initValue>
+      <name>kafka_topic</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Path to a configuration file, if needed for additional configurations.</description>
+      <initValue>''</initValue>
+      <name>configFilePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>A list of host/port pairs to use for establishing the initial connection to the Kafka cluster.</description>
+      <initValue>'localhost:9092'</initValue>
+      <name>kafka_bootstrap_servers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>A unique string that identifies the consumer group this consumer belongs to.</description>
+      <initValue>'myTestGroup'</initValue>
+      <name>kafka_group_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>What to do when there is no initial offset in Kafka or if the current offset does not exist anymore on the server (e.g. because that data has been deleted).</description>
+      <initValue>'earliest'</initValue>
+      <name>kafka_auto_offset_reset</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The number of acknowledgments the producer requires the broker to receive before considering a request complete. &quot;0&quot; - no acknowledgments, &quot;1&quot; - only the leader, &quot;all&quot; - full ISR acknowledgment.</description>
+      <initValue>'0'</initValue>
+      <name>kafka_acks</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
